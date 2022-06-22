@@ -240,27 +240,27 @@ function create_calendar_event(newEvent, semesterStartDate, semesterEndDate) {
 function getCalendar(space) {
   switch (space) {
     case "B2-101":
-      return CalendarApp.getCalendarById("c_g62jno9rpp2ofd34b801lsa80g@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-201":
-      return CalendarApp.getCalendarById("c_qo31q6u3fpp7b4bkjiu3t1qvcs@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-202":
-      return CalendarApp.getCalendarById("c_259r0o259ch71smi5srihn3brs@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-203":
-      return CalendarApp.getCalendarById("c_3s5hk709bapn9gbpjse611g4ps@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-204":
-      return CalendarApp.getCalendarById("c_ejjjhaqndrbkpiau78cogcbki0@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-205":
-      return CalendarApp.getCalendarById("c_aufsutsbtddmvfmsjfrq00h04g@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-206":
-      return CalendarApp.getCalendarById("c_4r8dvfml3m8da5rb4jm2o54odk@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-213":
-      return CalendarApp.getCalendarById("c_1jeb5n0gq4sp029fnvcilbvsno@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-214":
-      return CalendarApp.getCalendarById("c_7q9k761fp81g53d909u9jn9kok@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-215":
-      return CalendarApp.getCalendarById("c_m9p6euenahljtht0uu7876b6qs@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     case "B2-216":
-      return CalendarApp.getCalendarById("c_uufepo395piq3kh2q2eb1gq9h4@group.calendar.google.com");
+      return CalendarApp.getCalendarById("CALENDAR_ID");
     default:
       return -1;
   }
