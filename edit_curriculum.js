@@ -61,7 +61,7 @@ function modify_class() {
       Logger.log('created');
       ss.getRange(i + 1, 1, 1, 16).setBackground('#c4beb5');  // Set background color to gray.
       Logger.log('set background color');
-      update_curriculum(oldData, newData);  // Updte old course data in 【建立學期課表】.
+      update_curriculum(oldData, newData);  // Update old course data in 【建立學期課表】.
       Logger.log('refreshed');
     }
   } catch (e) {
@@ -98,16 +98,16 @@ function add_curriculum(newData) {
 
 function get_all_calendarID() {
   return {
-    "B2-101": "c_g62jno9rpp2ofd34b801lsa80g@group.calendar.google.com",
-    "B2-201": "c_qo31q6u3fpp7b4bkjiu3t1qvcs@group.calendar.google.com",
-    "B2-202": "c_259r0o259ch71smi5srihn3brs@group.calendar.google.com",
-    "B2-203": "c_3s5hk709bapn9gbpjse611g4ps@group.calendar.google.com",
-    "B2-204": "c_ejjjhaqndrbkpiau78cogcbki0@group.calendar.google.com",
-    "B2-205": "c_aufsutsbtddmvfmsjfrq00h04g@group.calendar.google.com",
-    "B2-206": "c_4r8dvfml3m8da5rb4jm2o54odk@group.calendar.google.com",
-    "B2-213": "c_1jeb5n0gq4sp029fnvcilbvsno@group.calendar.google.com",
-    "B2-214": "c_7q9k761fp81g53d909u9jn9kok@group.calendar.google.com",
-    "B2-215": "c_m9p6euenahljtht0uu7876b6qs@group.calendar.google.com",
-    "B2-216": "c_uufepo395piq3kh2q2eb1gq9h4@group.calendar.google.com"
+    "B2-101": "CALENDAR_ID",
+    "B2-201": "CALENDAR_ID",
+    "B2-202": "CALENDAR_ID",
+    "B2-203": "CALENDAR_ID",
+    "B2-204": "CALENDAR_ID",
+    "B2-205": "CALENDAR_ID",
+    "B2-206": "CALENDAR_ID",
+    "B2-213": "CALENDAR_ID",
+    "B2-214": "CALENDAR_ID",
+    "B2-215": "CALENDAR_ID",
+    "B2-216": "CALENDAR_ID"
   };
 }
